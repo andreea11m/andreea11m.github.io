@@ -1,0 +1,204 @@
+nav {
+    background: linear-gradient(45deg,rgb(205, 101, 157) 10%, rgba(121,9,115,0.5438550420168067) 50%, rgb(57, 3, 124) 90%);
+}
+
+
+
+
+.jos{
+    /* position: static; */
+    /* top: 190%; */
+    /* margin: 0 auto; */
+    background: linear-gradient(45deg,rgb(205, 101, 157) 10%, rgba(121,9,115,0.5438550420168067) 50%, rgb(57, 3, 124) 90%);
+    width: 100%;
+   
+    /* color: white; */
+    
+}
+
+.butoane img {
+    width: 30px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+iframe{
+    width: 40%;
+    height: 50%;
+    margin-top: 3%;
+}
+
+.centru{
+   text-align: center;
+   margin-top: 2% ;
+}
+
+.centrua{
+    text-align: center;
+    margin-top: 8% ;
+ }
+
+    
+h3{
+    font-size: 1.5rem;
+}
+
+    
+p{
+    font-size: 1.2rem;
+}
+    
+
+
+.mt-n1 {
+    margin-top: 1% !important;
+}
+
+.mt-n2 {
+    margin-top: 5% !important;
+}
+
+.contact{
+   
+    text-align: center;
+    margin-top: 5%;
+}
+.contact p{
+    font-size: 1.1rem;
+}
+
+.image-parent {
+    max-width: 100%;
+    max-height: 900px;
+    
+} 
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+    color: white;
+  }
+  
+.formular {
+    border-radius: 5px;
+    background-color:rgba(252, 46, 91, 0.455);
+    padding: 20px;
+    color: white;
+  }
+  
+  input:focus{
+  outline: 1px solid red;
+  color: white;
+  }
+
+  textarea{
+    width: 100%;
+    padding-left: 20px;
+    margin:8px 0;
+    color: white;
+}
+
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+  }
+
+
+  .rate {
+    float: left;
+    height: 60px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+canvas {
+    
+    display: block; /* change the display property to block */
+    margin: 0 auto; /* add margin: 0 auto to center the element */
+    width: 50%; /* adjust the width as needed */
+    height: auto;
+}
+
+#fetch-button {
+    margin-top: 5%;
+}
+
+
+
+.continut3 {
+    height: 900px;
+    margin-top: 3%;
+}
+
+
